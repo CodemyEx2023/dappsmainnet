@@ -1,0 +1,73 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #02022cfb;
+}
+.container {
+  margin: 100px auto;
+  width: 80%;
+  height: 300px;
+  position: relative;
+  /* From https://css.glass */
+  background: rgba(187, 177, 177, 0.36);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  border: 1px solid rgba(187, 177, 177, 0.73);
+}
+.connect-btn {
+  background-color: #1815d4ea;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  width: max-content;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+  box-shadow: 0 5px 20px #4438f0;
+}
+.error {
+  background-color: silver;
+  color: rgb(75, 33, 33);
+  flex-wrap: nowrap;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+/* Adding blinking effect */
+.error {
+  animation: blinker 1.5s infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+.h3 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.error p {
+  font-size: 14px;
+}

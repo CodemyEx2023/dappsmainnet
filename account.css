@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(4, 4, 51, 0.966);
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  height: 100vh;
+  border: 1px solid white;
+  background-color: rgba(5, 5, 36, 0.555);
+  border-radius: 10px;
+  display: grid;
+}
+h2 {
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10px;
+}
+.wallet {
+  background-color: red;
+}
