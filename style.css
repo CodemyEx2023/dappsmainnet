@@ -45,7 +45,7 @@ nav {
   padding: 0 0.7vw;
   justify-content: space-evenly;
   align-items: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .nav-links li a {
   text-decoration: none;
